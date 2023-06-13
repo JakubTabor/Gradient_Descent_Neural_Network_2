@@ -6,3 +6,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # So the preprocessing phase was short, now we can build simple network with only one layer
 # And then I gonna build my own neural network but from scratch, to show the simplicity of "keras.Sequential" structure
 # I my keras model I put last Dense layer with one neuron, two variables (age and affordibility) it is shape, then activation as sigmoid
+# I initialize kernel with ones and bias with zeros, I keep the structure simple 
