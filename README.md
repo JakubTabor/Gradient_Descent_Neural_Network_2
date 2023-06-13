@@ -5,3 +5,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Then for better performance I scaled my "age column" in X_train and X_test but before this i make copy on it 
 # So the preprocessing phase was short, now we can build simple network with only one layer
 # And then I gonna build my own neural network but from scratch, to show the simplicity of "keras.Sequential" structure
+# I my keras model I put last Dense layer with one neuron, two variables (age and affordibility) it is shape, then activation as sigmoid
