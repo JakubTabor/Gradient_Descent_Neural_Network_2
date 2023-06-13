@@ -7,3 +7,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # And then I gonna build my own neural network but from scratch, to show the simplicity of "keras.Sequential" structure
 # I my keras model I put last Dense layer with one neuron, two variables (age and affordibility) it is shape, then activation as sigmoid
 # I initialize kernel with ones and bias with zeros, I keep the structure simple 
+# Then i compile my model with same parameters as always, so optimizer as adam, I have binary output, so loss will be binary_crossentropy
