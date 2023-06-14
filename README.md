@@ -10,3 +10,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Then i compile my model with same parameters as always, so optimizer as adam, I have binary output, so loss will be binary_crossentropy
 # And I train my model with X_train_scaled and y_train, I set number of epochs at 1000, after evaluating my model I get good accuracy
 # Then I check predictions, all looks good, I also save weights of my model for comparison witch my hand written model 
+# I will be calling coef and intercept after training my own ANN model, I gonna check if the weights are the same 
