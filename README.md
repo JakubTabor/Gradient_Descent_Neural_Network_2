@@ -8,3 +8,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # I my keras model I put last Dense layer with one neuron, two variables (age and affordibility) it is shape, then activation as sigmoid
 # I initialize kernel with ones and bias with zeros, I keep the structure simple 
 # Then i compile my model with same parameters as always, so optimizer as adam, I have binary output, so loss will be binary_crossentropy
+# And I train my model with X_train_scaled and y_train, I set number of epochs at 1000, after evaluating my model I get good accuracy
