@@ -4,4 +4,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # First I need activation function for my model so I define sigmoid function, It will eturn value in  range 0 to 1
 # Now my "prediction_function", so i fill paterrn which is (w1 * x1 + w2 * x2 + bias) I save it as "weighted_sum" and return activation of my "weighted_sum"
 # Then I check if my function works good and it seems that everything is alright
-# 
+# Next I build "log loss" function, in simple words it take values in range 0 to 1, very close to this numbers but not exact numbers
