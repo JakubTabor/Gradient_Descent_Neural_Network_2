@@ -10,3 +10,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # I change my activation function into numpy, I look at values that function returns, they are in range 0 to 1
 # Now I can build Neural Network, so I start with constructor function, define my weights and bias  
 # Next i define fit function, it will train my model, so I call gradient descent function, that I will build in a moment
+# Inside it I put "age of X and affordibility of X", then y, then epochs and loss_thresold, all will be return in form of tuple
