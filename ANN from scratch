@@ -7,3 +7,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Next I build "log loss" function, in simple words it take values in range 0 to 1, very close to this numbers but not exact numbers
 # Then it return mean log loss, so i use "-np.mean" to get mean value and "np.log" to get log of y_predicted_new and log of "1 - y_predicted_new"
 # And "y_predicted_new" is first my value close to 0 "[max(i, epsilon) for i in y_predicted]" and the value close to 1 "[min(i, 1 - epsilon) for i in y_predicted_new]"
+# I change my activation function into numpy, I look at values that function returns, they are in range 0 to 1
