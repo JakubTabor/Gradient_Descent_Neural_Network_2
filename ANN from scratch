@@ -17,3 +17,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Then I define predict function, so w1 * x1 + w2 * x2 + bias and in that case i take x1 and x2 from my X_test 
 # I save it as weighted_sum and put variable into activation function, so previous defined "sigmoid_numpy" 
 # Now its time to define gradient descent, first I initialize my weights with ones and bias with zero
+# Start values of "learning_rate" will be 0.5, my columns have the same length so it doesn't matter from which i take length for my variable n
