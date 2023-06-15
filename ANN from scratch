@@ -12,5 +12,6 @@ I gonna build neural network from scratch also with gradient descent inside
 # Next i define fit function, it will train my model, so I call gradient descent function, that I will build in a moment
 # Inside it I put "age of X and affordibility of X", then y, then epochs and loss_thresold, all will be return in form of tuple
 # loss_thresold define where my function need to stop to, I take the number from my keras model 
-#I save it as my weights and bias, I pass this arguments for my gradient descent and it will calculate the output values
+# I save it as my weights and bias, I pass this arguments for my gradient descent and it will calculate the output values
 # And It will print my weights and bias for comparison to my keras model 
+# Then I define predict function, so w1 * x1 + w2 * x2 + bias and in that case i take x1 and x2 from my X_test 
