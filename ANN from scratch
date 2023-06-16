@@ -25,3 +25,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Now I can calculate derivatives, so first will be w1 derivative
 # I need to transpose age, then (sum up "age" and difference between y_predicted - y_true) using np.dot, so i take dot product
 # And take average of it using (1 / n) and "n" is length of my age column, thet was w1 derivative
+# Then I calculate w2 derivative, so i do this same calculations but for affordability
