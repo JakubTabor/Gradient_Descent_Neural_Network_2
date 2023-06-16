@@ -27,3 +27,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # And take average of it using (1 / n) and "n" is length of my age column, thet was w1 derivative
 # Then I calculate w2 derivative, so i do this same calculations but for affordability
 # And bias derivative, so average of difference between y_predicted and y_true
+# Now I can calculate w1, w2 and bias, I use previous defined learning rate and w1, w2 derivatives, also this same for bias 
