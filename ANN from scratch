@@ -19,3 +19,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Now its time to define gradient descent, first I initialize my weights with ones and bias with zero
 # Start values of "learning_rate" will be 0.5, my columns have the same length so it doesn't matter from which i take length for my variable n
 # Then I start for loop which range is number of my epochs, that I define later at final stage 
+# Now I put inside weighted sum which I use also in predict function, i define it to get y_predicted 
