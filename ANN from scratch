@@ -23,4 +23,5 @@ I gonna build neural network from scratch also with gradient descent inside
 # Next y_predicted which is weighted_sum in activation function, I gonna use difference between y_predicted and y_true in several calculation
 # Then I define loos which is my log loss function of (y_predicted and y_true), so it gonna calculate log loss on this two 
 # Now I can calculate derivatives, so first will be w1 derivative
-# I need to transpose age, then (sum up "age" and diffenrence between y_predicted - y_true) using np.dot, so i take dot product
+# I need to transpose age, then (sum up "age" and difference between y_predicted - y_true) using np.dot, so i take dot product
+# And take average of it using (1 / n) and "n" is length of my age column, thet was w1 derivative
