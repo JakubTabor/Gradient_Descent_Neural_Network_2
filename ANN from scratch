@@ -20,3 +20,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Start values of "learning_rate" will be 0.5, my columns have the same length so it doesn't matter from which i take length for my variable n
 # Then I start for loop which range is number of my epochs, that I define later at final stage 
 # Now I put inside weighted sum which I use also in predict function, i define it to get y_predicted 
+# Next y_predicted which is weighted_sum in activation function, I gonna use difference between y_predicted and y_true in several calculation
