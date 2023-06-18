@@ -29,3 +29,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Then I calculate w2 derivative, so i do this same calculations but for affordability
 # And bias derivative, so average of difference between y_predicted and y_true
 # Now I can calculate w1, w2 and bias, I use previous defined learning rate and w1, w2 derivatives, also this same for bias 
+# I set i to every fifty percent, it means that it gonna record every fifty epoch my progress and I print it
