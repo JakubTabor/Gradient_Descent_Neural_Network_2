@@ -30,3 +30,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # And bias derivative, so average of difference between y_predicted and y_true
 # Now I can calculate w1, w2 and bias, I use previous defined learning rate and w1, w2 derivatives, also this same for bias 
 # I set i to every fifty percent, it means that it gonna record every fifty epoch my progress and I print it
+# Then I set condition (if my loss is equal loss_thresold, so loss from my previous model), I gonna put number of this loss into object of my function
