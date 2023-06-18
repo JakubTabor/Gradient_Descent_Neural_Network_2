@@ -33,3 +33,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Then I set condition (if my loss is equal loss_thresold, so loss from my previous model), I gonna put number of this loss into object of my function
 # My function stop at this point and my weights and bias will be this same as from my keras model
 # So I gonna pirint it also and brake will stop my fuction, I return weights and bias
+# No I can create object of my class and call fit fuction from my model 
