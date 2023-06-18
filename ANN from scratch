@@ -34,3 +34,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # My function stop at this point and my weights and bias will be this same as from my keras model
 # So I gonna pirint it also and brake will stop my fuction, I return weights and bias
 # No I can create object of my class and call fit fuction from my model 
+# I put inside X_train_scaled and y_train, set number of epochs at 500, and set loss_thresold 
