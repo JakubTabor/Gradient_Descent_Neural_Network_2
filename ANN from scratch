@@ -38,3 +38,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # Now I can call coef and intercept which will return my weights and bias from previous keras model
 # My weights and bais look pretty much the same, I also look at predictions and looks almost the same
 # Results show that my models are very similar and also show how its easy to build neural network with keras
+# With simple few lines of code i get network with good accuracy, in meantime i need whole class with a lot of code to get this same results
