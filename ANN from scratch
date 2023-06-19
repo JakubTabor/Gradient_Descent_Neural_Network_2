@@ -37,3 +37,4 @@ I gonna build neural network from scratch also with gradient descent inside
 # I put inside X_train_scaled and y_train, set number of epochs at 500, and set loss_thresold 
 # Now I can call coef and intercept which will return my weights and bias from previous keras model
 # My weights and bais look pretty much the same, I also look at predictions and looks almost the same
+# Results show that my models are very similar and also show how its easy to build neural network with keras
