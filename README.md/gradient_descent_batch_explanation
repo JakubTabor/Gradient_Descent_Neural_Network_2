@@ -1,1 +1,2 @@
 # First I load my simple dataset which include three columns : area, bedrooms and	price
+# Now I need to scale my data, so I import "MinMaxScaler" from "preprocessing", and put inside area and bedroom columns 
