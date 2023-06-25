@@ -1,2 +1,3 @@
 # First I load my simple dataset which include three columns : area, bedrooms and	price
-# Now I need to scale my data, so I import "MinMaxScaler" from "preprocessing", and put inside area and bedroom columns 
+# Now I need to scale my data, so I import "MinMaxScaler" from "preprocessing", and put inside area and bedroom columns I save it as X_scaled 
+# Then I scale price column and I also reshape it into 2D array, I save it as y_scaled 
