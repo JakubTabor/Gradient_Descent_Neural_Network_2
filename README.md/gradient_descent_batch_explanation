@@ -4,3 +4,4 @@
 # Now I gonna build from scratch batch gradient descent, I gonna need here X, y_true, epochs and learning_rate which I set to (0.01)
 # First I pass "number_of_features", so "area and bedroom", shape of it will be in rows and columns
 # Then I initialize my weights with ones and set shape as previous saved "number_of_features", also initialize bias with zero
+# And I pass shape of "total_samples" for later which is " X.shape[0]"
