@@ -6,3 +6,4 @@
 # Then I initialize my weights with ones and set shape as previous saved "number_of_features", also initialize bias with zero
 # And I pass shape of "total_samples" for later which is " X.shape[0]"
 # I create two empty list to record cost and epochs and later plot them 
+# Then I make for loop in length of my epochs, inside I define "y_predicted", which is dot product of w1, w2 and X transpose, plus bias
