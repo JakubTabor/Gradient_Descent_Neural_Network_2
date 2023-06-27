@@ -13,3 +13,4 @@
 # Then I define cost of my function, which is mean squared error between true and predicted value
 # Now I define recording progress, and it will be every tenth iteration
 # In my lists will be filling with values recorded values, cost and epochs
+# And my function will return weights, bias, cost, cost list and epoch list, so I can plot it later
