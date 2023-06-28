@@ -20,3 +20,4 @@
 # But I can see that "batch_gradient_descent" have smoth curve 
 # Then I create prediction function, I gonna use in it "inverse_transform" from my "MinMaxScaler"
 # So it return me inverse values, np. when I put 1 into it it will return me max. argument in my column, when i put 0.5, it will return me mean value of column
+# I gonna use in my predict function : area, bedrooms, weights and bias 
