@@ -18,3 +18,4 @@
 # And get weights, bias and cost, I can compare it later whith "stochastic_gradient_descent"
 # I plot history how my cost change during the epochs, I can see that close to 100th epoch my cost stop decreasing rapidly
 # But I can see that "batch_gradient_descent" have smoth curve 
+# Then I create prediction function, I gonna use in it "inverse_transform" from my "MinMaxScaler"
