@@ -16,3 +16,4 @@
 # And my function will return weights, bias, cost, cost list and epoch list, so I can plot it later
 # Then I call my function and put inside X_scaled, y_scaled_reshaped, pass number of epochs (500)
 # And get weights, bias and cost, I can compare it later whith "stochastic_gradient_descent"
+# I plot history how my cost change during the epochs, I can see that close to 100th epoch my cost stop decreasing rapidly
