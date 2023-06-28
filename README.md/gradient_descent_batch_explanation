@@ -23,3 +23,4 @@
 # I gonna use in my predict function : area, bedrooms, weights and bias 
 # Now I must scale my features, so I use transform method from my scaler and put inside area and bedrooms and I supply [0] to get 1D array, all this I save as X_scaled
 # Then I fill patter to get "scaled_price", so (w1 into X_scaled of [0] which is area  variable, plus w2 into X_scaled of [1] which is bedrooms variable, plus some bias
+# Next I use "inverse_transform" method on "scaled_price" variable to get actual price, and supply [0][0] to get single value
