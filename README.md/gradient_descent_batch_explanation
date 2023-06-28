@@ -21,3 +21,4 @@
 # Then I create prediction function, I gonna use in it "inverse_transform" from my "MinMaxScaler"
 # So it return me inverse values, np. when I put 1 into it it will return me max. argument in my column, when i put 0.5, it will return me mean value of column
 # I gonna use in my predict function : area, bedrooms, weights and bias 
+# Now I must scale my features, so I use transform method from my scaler and put inside area and bedrooms and I supply [0] to get 1D array, all this I svae as X_scaled
