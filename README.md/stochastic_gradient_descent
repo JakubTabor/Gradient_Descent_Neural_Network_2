@@ -2,4 +2,5 @@
 # I gonna need to build my function this same things as previous, so X, y_true, epochs and learning rate, which I set to (0.01)
 # Now I gonna pass this same variables as previous, so I define "number_of_features", weights, bias and "total_samples"   
 # Then I create two lists to record epochs and cost, to later plot them
-#I start for loop in length of my epochs, and now I gonna use previous imported "random", to choose random samples
+# I start for loop in length of my epochs, and now I gonna use previous imported "random", to choose random samples
+# I use "randint" to pick random samples between (zero and total_samples - 1) indexes in python are -1, I save it as "random_index "
