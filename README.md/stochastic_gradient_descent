@@ -5,3 +5,4 @@
 # I start for loop in length of my epochs, and now I gonna use previous imported "random", to choose random samples
 # I use "randint" to pick random samples between (zero and total_samples - 1) indexes in python are -1, I save it as "random_index "
 # Now I need to pick samples from X and y_true, so I create two variables for it
+# First will be (X of "random_index") and (y_true of "random_index"), I save it as "sample_x" and "sample_y" 
