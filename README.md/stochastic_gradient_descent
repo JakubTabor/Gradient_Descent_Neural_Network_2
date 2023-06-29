@@ -1,1 +1,2 @@
 # Now Its time to build stochastic gradien descent, I gonna need to import random 
+# I gonna need to build my function this same things as previous, so X, y_true, epochs and learning rate, which I set to (0.01)
