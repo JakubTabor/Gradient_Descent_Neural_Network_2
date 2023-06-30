@@ -8,3 +8,4 @@
 # First will be (X of "random_index") and (y_true of "random_index"), I save it as "sample_x" and "sample_y" 
 # Now I define "y_predicted", which is dot product between (w and transpose "sample_x") plus some bias 
 # Then I calculate first derivatives, which is random sample of X transpose, dot product of difference between true sample and predicted
+# And I take mean of it multiply by minus two, it will be variable "w_grad"
