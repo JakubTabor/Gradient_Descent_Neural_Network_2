@@ -9,3 +9,4 @@
 # Now I define "y_predicted", which is dot product between (w and transpose "sample_x") plus some bias 
 # Then I calculate first derivatives, which is random sample of X transpose, dot product of difference between true sample and predicted
 # And I take mean of it multiply by minus two, it will be variable "w_grad"
+# Next my second derivatives for bias, it is the same, but in this case I take mean of y sample and predicted, without dot product
