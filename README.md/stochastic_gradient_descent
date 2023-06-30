@@ -13,3 +13,4 @@
 # Now I can calculate first weights, some variable minus learning rate into w_grad variable, which I calculate above
 # And I do this same with bias, now I have defined bias and weights
 # Then I calculate cost, which is squared difference between sample of y and predicted y
+# Now I specify that cost and epoch will be recorded every 100th iteration, they will append in my lists
