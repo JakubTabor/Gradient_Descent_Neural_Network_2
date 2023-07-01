@@ -15,3 +15,4 @@
 # Then I calculate cost, which is squared difference between sample of y and predicted y
 # Now I specify that cost and epoch will be recorded every 100th iteration, they will append in my lists
 # I return from my function weights, bias cost, cost_list, epoch_list
+# Now I create object of my function "stochastic_gradient_descent", and put inside X_scaled, y_scaled and reshaped to "y_scaled.shape[0]", I pass (10000) epochs
