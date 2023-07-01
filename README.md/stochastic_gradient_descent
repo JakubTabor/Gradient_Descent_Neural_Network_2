@@ -14,3 +14,4 @@
 # And I do this same with bias, now I have defined bias and weights
 # Then I calculate cost, which is squared difference between sample of y and predicted y
 # Now I specify that cost and epoch will be recorded every 100th iteration, they will append in my lists
+# I return from my function weights, bias cost, cost_list, epoch_list
