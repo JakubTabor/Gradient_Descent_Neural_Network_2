@@ -17,3 +17,4 @@
 # I return from my function weights, bias cost, cost_list, epoch_list
 # Now I create object of my function "stochastic_gradient_descent", and put inside X_scaled, y_scaled and reshaped to "y_scaled.shape[0]", I pass (10000) epochs
 # And I get weight, bias and cost of my "stochastic_gradient_descent", they are the same as form "batch_gradient_descent"
+# But for "stochastic_gradient_descent" I need to set more epochs
