@@ -19,3 +19,4 @@
 # And I get weight, bias and cost of my "stochastic_gradient_descent", they are the same as form "batch_gradient_descent"
 # But for "stochastic_gradient_descent" I need to set more epochs, because every epoch it pick only one sample
 # Then I plot of graph previous saved in my lists (cost and epochs), we can se that its not that smoth as on previous plot
+# But later after 4000 epoch it is more stable
