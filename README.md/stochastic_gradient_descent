@@ -20,3 +20,4 @@
 # But for "stochastic_gradient_descent" I need to set more epochs, because every epoch it pick only one sample
 # Then I plot of graph previous saved in my lists (cost and epochs), we can se that its not that smoth as on previous plot
 # But later after 4000 epoch it is more stable
+# I also check some predictions and they look pretty realistic, when I put (this same number of square feets but with one more bedroom) the price is higher
