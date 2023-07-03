@@ -23,3 +23,4 @@
 # I also check some predictions and they look pretty realistic, when I put (this same number of square feets but with one more bedroom) the price is higher
 # Conclusions are that (Batch Gradient Descent) have good performance on small datasets, he use all training samples in one forward pass and then adjust weights
 # In comparison (Stochastic Gradient Descent) use only one sample in forward pass and after adjust weights
+# It is good when you have big dataset, because it saves a lot of computation, When you have a lot of computation power you can use also (Stochastic Gradient Descent)
