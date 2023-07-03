@@ -21,3 +21,4 @@
 # Then I plot of graph previous saved in my lists (cost and epochs), we can se that its not that smoth as on previous plot
 # But later after 4000 epoch it is more stable
 # I also check some predictions and they look pretty realistic, when I put (this same number of square feets but with one more bedroom) the price is higher
+# Conclusions are that batch gradient descent have good performance on small datasets, he use all training samples in one forward pass
