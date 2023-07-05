@@ -1,1 +1,2 @@
-Mini Batch Gradient Descent use batch of randomly picked samples for a forward pass and then adjust weights
+# Mini Batch Gradient Descent use batch of randomly picked samples for a forward pass and then adjust weights
+# In comparison to (Batch Gradient Descent) which use "all" training samples and (Stochastic Gradient Descent) which use "one" random sample for forward pass
