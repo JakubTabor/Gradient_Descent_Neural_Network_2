@@ -4,3 +4,4 @@
 # I import and prepare my dataset as previous and scale all columns
 # Now I can build "Mini Batch Gradient Descent", first i put some features, (X and y_true, number of epochs, batch size and learning rate)
 # Then I define "number_of_features", which are (area and bedroom), it will be "X.shape[1]"
+# Then I initialize weights with "ones" and pass shape which are my previous defined features
