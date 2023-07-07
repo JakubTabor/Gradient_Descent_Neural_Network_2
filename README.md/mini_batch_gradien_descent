@@ -11,3 +11,4 @@
 # And I create two lists to record epochs and cost
 # Then I create for loop in range of my epochs and inside I define variable "random indices"
 # "random.permutation" from numpy, it gonna take "all samples" and pick "random sample"
+# And I gonna take random samples from "X and y_true", I save it as "X_tmp and y_tmp"
