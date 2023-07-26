@@ -12,4 +12,4 @@
 # Then I create for loop in range of my epochs and inside I define variable "random indices"
 # "random.permutation" from numpy, it gonna take "all samples" and pick "random sample"
 # And I gonna take random samples from "X and y_true", I save it as "X_tmp and y_tmp"
-# 
+# Then I make another for loop (from 0 to total_samples variable) I also put (batch_size variable which is 5)
