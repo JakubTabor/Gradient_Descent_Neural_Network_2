@@ -16,5 +16,5 @@
 # I create two new variables (Xj and yj) I define them as (batches of random samples from X and y)
 # Next I define (y_pred) which is dot product between (weights variable and Xj transpose variable) plus bias
 # Now I gonna calculate (w_grad) by taking dot product with (Xj transpose) of (difference between yj variable and y_pred), I take mean multiply by -2 of it 
-# Next I calculate (b_grad) which is 
+# Next I calculate (b_grad) which is sum (of difference between yj variable and y_pred) and -2 mean of it
 # Now my derivatives are calculated
