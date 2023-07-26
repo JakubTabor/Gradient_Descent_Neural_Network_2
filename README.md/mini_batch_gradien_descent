@@ -14,3 +14,4 @@
 # And I gonna take random samples from "X and y_true", I save it as "X_tmp and y_tmp"
 # Then I make another for loop (from 0 to total_samples variable) I also put (batch_size variable which is 5)
 # I create two new variables (Xj and yj) I define them as (batches of random samples from X and y)
+# Next I define (y_pred) which is dot product between (weights variable and Xj transpose variable) plus bias
