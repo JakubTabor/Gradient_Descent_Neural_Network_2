@@ -19,3 +19,4 @@
 # Next I define (b_grad) which is sum (of difference between yj variable and y_pred) and -2 mean of it
 # Now my derivatives are defined, I gonna use them to calculate (weights and bias)
 # They are my (weights and bias variables) minus previou defined (learning_rate which is 0.01) into (w_grad and b_grad variables) defined above
+# Now my (weights) are adjusted, I can define (cost) which is (mean squared error)
