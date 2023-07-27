@@ -22,3 +22,4 @@
 # Now my (weights) are adjusted, I can define (cost) which is (mean squared error)
 # So first I use (np.square) to get squared error between (yj - y_pred) and then i take (mean of it) using (np.mean)
 # Now I create condition to fill my (cost_list and epoch_list), they will be filling every tenth iteration
+# I return from my function (weights, bias, cost and both lists)
