@@ -26,3 +26,4 @@
 # Then I call my function and supply it with (X_scaled, y_scaled reshaped into 1D array)
 # I also set number of (epochs at 120 and number of batches at 5)
 # I get (both weights, bias and cost) my (mini_batch_gradient_descent) function is working well
+# Next I plot on graph (Epochs and Cost) of my function calling both lists, previous returned from my function
