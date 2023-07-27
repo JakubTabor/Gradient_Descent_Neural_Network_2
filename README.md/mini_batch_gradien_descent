@@ -24,3 +24,4 @@
 # Now I create condition to fill my (cost_list and epoch_list), they will be filling every tenth iteration
 # I return from my function (weights, bias, cost and both lists)
 # Then I call my function and supply it with (X_scaled, y_scaled reshaped into 1D array)
+# I also set number of (epochs at 120 and number of batches at 5)
