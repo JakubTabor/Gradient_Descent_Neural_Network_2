@@ -18,13 +18,17 @@ I gonna build neural network from scratch also with gradient descent inside
 # Now I can build Neural Network, so I start with constructor function, define my weights and bias  
 # Next i define fit function, it will train my model, so I call gradient descent function, that I will build in a moment
 # Inside it I put "age of X and affordibility of X", then y, then epochs and loss_thresold, all will be return in form of tuple
+
 # loss_thresold define where my function need to stop to, I take the number from my keras model 
 # I save it as my weights and bias, I pass this arguments for my gradient descent and it will calculate the output values
 # And It will print my weights and bias for comparison to my keras model 
+
 # Then I define predict function, so w1 * x1 + w2 * x2 + bias and in that case i take x1 and x2 from my X_test 
 # I save it as weighted_sum and put variable into activation function, so previous defined "sigmoid_numpy" 
+
 # Now its time to define gradient descent, first I initialize my weights with ones and bias with zero
 # Start values of "learning_rate" will be 0.5, my columns have the same length so it doesn't matter from which i take length for my variable n
+
 # Then I start for loop which range is number of my epochs, that I define later at final stage 
 # Now I put inside weighted sum which I use also in predict function, i define it to get y_predicted 
 # Next y_predicted which is weighted_sum in activation function, I gonna use difference between y_predicted and y_true in several calculation
