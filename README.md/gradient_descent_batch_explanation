@@ -1,6 +1,8 @@
 # First I load my simple dataset which include three columns : area, bedrooms and	price
+
 # Now I need to scale my data, so I import "MinMaxScaler" from "preprocessing", and put inside area and bedroom columns I save it as X_scaled 
 # Then I scale price column and I also reshape it into 2D array, I save it as x_scaled
+
 # Now I gonna build from scratch batch gradient descent, I gonna need here X, y_true, epochs and learning_rate which I set to (0.01)
 # First I pass "number_of_features", so "area and bedroom", shape of it will be in rows and columns
 # Then I initialize my weights with ones and set shape as previous saved "number_of_features", also initialize bias with zero
