@@ -18,15 +18,22 @@
 
 # Now I can calculate weights, which is my "w" variable minus (learning rate) into (w_grad variable), which I calculate above
 # And I do this same with bias, now I have defined bias and weights
+
 # Then I calculate cost, which is squared difference between sample of y and predicted y
+
 # Now I specify that cost and epoch will be recorded every 100th iteration, they will append in my lists
+
 # I return from my function weights, bias cost, cost_list, epoch_list
-# Now I create object of my function "stochastic_gradient_descent", and put inside X_scaled, y_scaled and reshaped to "y_scaled.shape[0]", I pass (10000) epochs
+
+# I can create object of my function "stochastic_gradient_descent", and put inside X_scaled, y_scaled and reshaped to "y_scaled.shape[0]", I pass (10000) epochs
 # And I get weight, bias and cost of my "stochastic_gradient_descent", they are the same as form "batch_gradient_descent"
 # But for "stochastic_gradient_descent" I need to set more epochs, because every epoch it pick only one sample
-# Then I plot of graph previous saved in my lists (cost and epochs), we can se that its not that smoth as on previous plot
+
+# Then I plot of graph previous saved in my lists (cost and epochs), we can see that it's not that smooth as on previous graph
 # But later after 4000 epoch it is more stable
+
 # I also check some predictions and they look pretty realistic, when I put (this same number of square feets but with one more bedroom) the price is higher
+
 # Conclusions are that (Batch Gradient Descent) have good performance on small datasets, he use all training samples in one forward pass and then adjust weights
 # In comparison (Stochastic Gradient Descent) use only one sample in forward pass and after adjust weights
 # It is good when you have big dataset, because it saves a lot of computation, When you have a lot of computation power you can use also (Stochastic Gradient Descent)
