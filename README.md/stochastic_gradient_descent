@@ -1,5 +1,6 @@
-# Now Its time to build stochastic gradien descent, I gonna need to import random 
-# I gonna need to build my function this same things as previous, so X, y_true, epochs and learning rate, which I set to (0.01)
+# Now It's time to build stochastic gradient descent, I need to import random for it
+
+# I gonna build the function that same as previous, so X, y_true, epochs and learning rate, which I set to (0.01)
 # Now I gonna pass this same variables as previous, so I define "number_of_features", weights, bias and "total_samples"   
 # Then I create two lists to record epochs and cost, to later plot them
 # I start for loop in length of my epochs, and now I gonna use previous imported "random", to choose random samples
