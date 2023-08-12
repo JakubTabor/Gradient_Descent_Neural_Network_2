@@ -5,15 +5,18 @@
 
 # Then I create two lists to record epochs and cost, to plot them later
 
-# I start for loop in length of my epochs, and now I gonna use previous imported "random", to choose random samples
-# I use "randint" to pick random samples between (zero and total_samples - 1) indexes in python are -1, I save it as "random_index "
-# Now I need to pick samples from X and y_true, so I create two variables for it
+# I start for loop in length of my epochs, and now I gonna use previous imported "random" to choose random samples
+# I need "randint" to pick random samples between (zero and total_samples - 1) indexes in python are -1, I save it as "random_index "
+# Now I set it to pick samples from X and y_true, so I create two variables for it
 # First will be (X of "random_index") and (y_true of "random_index"), I save it as "sample_x" and "sample_y" 
-# Now I define "y_predicted", which is dot product between (w and transpose "sample_x") plus some bias 
+
+# Next I define "y_predicted", which is dot product between (w and transpose "sample_x") plus some bias 
+
 # Then I calculate first derivatives, which is random sample of X transpose, dot product of difference between true sample and predicted
 # And I take mean of it multiply by minus two, it will be variable "w_grad"
 # Next my second derivatives for bias, it is the same, but in this case I take mean of y sample and predicted y, without dot product
-# Now I can calculate first weights, some variable minus learning rate into w_grad variable, which I calculate above
+
+# Now I can calculate weights, which is my "w" variable minus (learning rate) into (w_grad variable), which I calculate above
 # And I do this same with bias, now I have defined bias and weights
 # Then I calculate cost, which is squared difference between sample of y and predicted y
 # Now I specify that cost and epoch will be recorded every 100th iteration, they will append in my lists
