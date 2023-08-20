@@ -10,13 +10,16 @@
 * And I also initialize bias with "zero", my columns have equal size, so I define "total_samples" as "X.shape[0]"
 
 # Now I define batches for my "Gradien Descent", so I specify if "total samples" are less than "variable batch_size" which is (5)
-# Then if this condition is true "batch_size will be equal total samples", this is a simple python trick, thats the way how it gonna pick batches
-# And I create two lists to record epochs and cost
+* Then if this condition is true "batch_size will be equal total samples", this is a simple python trick, thats the way how it gonna pick batches
+* And I create two lists to record epochs and cost
+
 # Then I create for loop in range of my epochs and inside I define variable "random indices"
-# "random.permutation" from numpy, it gonna take "all samples" and pick "random sample"
-# And I gonna take random samples from "X and y_true", I save it as "X_tmp and y_tmp"
+* "random.permutation" from numpy, it gonna take "all samples" and pick "random sample"
+* And I gonna take random samples from "X and y_true", I save it as "X_tmp and y_tmp"
+
 # Then I make another for loop (from 0 to total_samples variable) I also put (batch_size variable which is 5)
-# I create two new variables (Xj and yj) I define them as (batches of random samples from X and y)
+* I create two new variables (Xj and yj) I define them as (batches of random samples from X and y)
+
 # Next I define (y_pred) which is dot product between (weights variable and Xj transpose variable) plus bias
 # Now I gonna define (w_grad) by taking dot product with (Xj transpose) of (difference between yj variable and y_pred), I take mean multiply by -2 of it 
 # Next I define (b_grad) which is sum (of difference between yj variable and y_pred) and -2 mean of it
