@@ -27,10 +27,11 @@
 * They are my (weights and bias variables) minus previou defined (learning_rate which is 0.01) into (w_grad and b_grad variables) defined above
 
 # Now my (weights) are adjusted, I can define (cost) which is (mean squared error)
-# So first I use (np.square) to get squared error between (yj - y_pred) and then i take (mean of it) using (np.mean)
-# Now I create condition to fill my (cost_list and epoch_list), they will be filling every tenth iteration
-# I return from my function (weights, bias, cost and both lists)
-# Then I call my function and supply it with (X_scaled, y_scaled reshaped into 1D array)
+* So first I use (np.square) to get squared error between (yj - y_pred) and then i take (mean of it) using (np.mean)
+
+# Next I create condition to fill my (cost_list and epoch_list), they will be filling every tenth iteration
+* I return from my function (weights, bias, cost and both lists)
+* Then I call my function and supply it with (X_scaled, y_scaled reshaped into 1D array)
 # I also set number of (epochs at 120 and number of batches at 5)
 # I get (both weights, bias and cost) my (mini_batch_gradient_descent) function is working well
 # Next I plot on graph (Epochs and Cost) of my function calling both lists, previous returned from my function
