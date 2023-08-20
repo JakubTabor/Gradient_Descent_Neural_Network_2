@@ -31,12 +31,15 @@
 
 # Next I create condition to fill my (cost_list and epoch_list), they will be filling every tenth iteration
 * I return from my function (weights, bias, cost and both lists)
-* Then I call my function and supply it with (X_scaled, y_scaled reshaped into 1D array)
-# I also set number of (epochs at 120 and number of batches at 5)
-# I get (both weights, bias and cost) my (mini_batch_gradient_descent) function is working well
+
+# Then I call my function and supply it with (X_scaled, y_scaled reshaped into 1D array)
+* I also set number of (epochs at 120 and number of batches at 5)
+* I get (both weights, bias and cost) my (mini_batch_gradient_descent) function is working well
+
 # Next I plot on graph (Epochs and Cost) of my function calling both lists, previous returned from my function
-# The line look smoother than (Stochastic gradient Descent line) but its not that smooth that in (Batch Gradient Descent)
-# Its not perfect smooth line because my Gradient Descent (use batch of randomly picked samples)
+* The line look smoother than (Stochastic gradient Descent line) but its not that smooth that in (Batch Gradient Descent)
+* Its not perfect smooth line because my Gradient Descent (use batch of randomly picked samples)
+
 # Then I define (predict function) exactly this same as in previous functions
-# I supply (predict function) into some values and both variables (weights and bias), it looks that all works well
+* I supply (predict function) into some values and both variables (weights and bias), it looks that all works well
 
