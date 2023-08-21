@@ -1,7 +1,3 @@
-# Mini Batch Gradient Descent use batch of randomly picked samples for a forward pass and then adjust weights
-# In comparison to (Batch Gradient Descent) which use "all" training samples and (Stochastic Gradient Descent) which use "one" random sample for forward pass
-# Its also good for big datasets, as well as "SGD", because it use batch of samples to train the model
-
 # I import and prepare my dataset as previous and scale all columns
 
 # Now I can build "Mini Batch Gradient Descent", first i put some features, (X and y_true, number of epochs, batch size and learning rate)
@@ -43,3 +39,6 @@
 # Then I define (predict function) exactly this same as in previous functions
 * I supply (predict function) into some values and both variables (weights and bias), it looks that all works well
 
+# Mini Batch Gradient Descent use batch of randomly picked samples for a forward pass and then adjust weights
+# In comparison to (Batch Gradient Descent) which use "all" training samples and (Stochastic Gradient Descent) which use "one" random sample for forward pass
+# Its also good for big datasets, as well as "SGD", because it use batch of samples to train the model
