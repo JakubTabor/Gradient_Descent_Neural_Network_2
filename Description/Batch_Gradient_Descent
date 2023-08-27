@@ -1,1 +1,35 @@
+# First I load my simple dataset which include three columns : area, bedrooms and	price
+* Now I need to scale my data, so I import "MinMaxScaler" from "preprocessing", and put inside area and bedroom columns I save it as X_scaled 
+* Then I scale price column and I also reshape it into 2D array, I save it as x_scaled
 
+# Now I gonna build from scratch batch gradient descent, I gonna need here X, y_true, epochs and learning_rate which I set to (0.01)
+* First I pass "number_of_features", so "area and bedroom", shape of it will be in rows and columns
+* Then I initialize my weights with ones and set shape as previous saved "number_of_features", also initialize bias with zero
+* And I pass shape of "total_samples" for later which is " X.shape[0]"
+* I create two empty list to record cost and epochs and later plot them 
+
+# Then I make for loop in length of my epochs, inside I define "y_predicted", which is dot product of w1, w2 and X transpose, plus bias
+* Now I define first derivative, so I pass X transpose dot product of difference between true and predicted value into minus average of total samples 
+* Then my second derivative, which is sum of difference between true and predicted value into minus average of total samples
+* Next I can calculate my weights, so my w minus learning rate into previous defined w_grad, and this same with bias 
+* Then I define cost of my function, which is mean squared error between true and predicted value
+
+# Now I define recording progress, and it will be every tenth iteration
+* In my lists will be filling with values recorded values, cost and epochs
+* And my function will return weights, bias, cost, cost list and epoch list, so I can plot it later
+
+# Then I call my function and put inside X_scaled, y_scaled_reshaped, pass number of epochs (500)
+* And get weights, bias and cost, I can compare it later whith "stochastic_gradient_descent"
+
+# I plot history how my cost change during the epochs, I can see that close to 100th epoch my cost stop decreasing rapidly
+* But I can see that "batch_gradient_descent" have smoth curve 
+
+# Then I create prediction function, I gonna use in it "inverse_transform" from my "MinMaxScaler"
+* So it return me inverse values, np. when I put 1 into it it will return me max. argument in my column, when i put 0.5, it will return me mean value of column
+* I gonna use in my predict function : area, bedrooms, weights and bias 
+* Now I must scale my features, so I use transform method from my scaler and put inside area and bedrooms and I supply [0] to get 1D array, all this I save as X_scaled
+* Then I fill patter to get "scaled_price", so (w1 into X_scaled of [0] which is area  variable, plus w2 into X_scaled of [1] which is bedrooms variable, plus some bias
+* Next I use "inverse_transform" method on "scaled_price" variable to get actual price, and supply [0][0] to get single value
+
+# First prediction is for second house in my data, which is quite well predicted, next I check 5th house which is worst than previous
+* My function not perform excellent, but is able to get close real values
