@@ -125,3 +125,5 @@
 # Mini Batch Gradient Descent use batch of randomly picked samples for a forward pass and then adjust weights
 # In comparison to (Batch Gradient Descent) which use "all" training samples and (Stochastic Gradient Descent) which use "one" random sample for forward pass
 # Its also good for big datasets, as well as "SGD", because it use batch of samples to train the model
+
+![](https://github.com/JakubTabor/Gradient_Descent_Neural_Network_2/blob/main/Images/Mini_Batch_Gradient_Descent.png)
