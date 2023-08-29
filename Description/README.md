@@ -35,3 +35,41 @@
 
 # First prediction is for second house in my data, which is quite well predicted, next I check 5th house which is worst than previous
 * My function not perform excellent, but is able to get close real values
+
+**STOCHASTIX GRADIENT DESCENT**
+
+# Now It's time to build stochastic gradient descent, I need to import random for it
+* I gonna build the function that same as previous, so X, y_true, epochs and learning rate, which I set to (0.01)
+* Now I pass the variables, so I define "number_of_features", weights, bias and "total_samples"   
+* Then I create two lists to record epochs and cost, to plot them later
+
+# I start for loop in length of my epochs, and now I gonna use previous imported "random" to choose random samples
+* I need "randint" to pick random samples between (zero and total_samples - 1) indexes in python are -1, I save it as "random_index "
+* Now I set it to pick samples from X and y_true, so I create two variables for it
+* First will be (X of "random_index") and (y_true of "random_index"), I save it as "sample_x" and "sample_y" 
+
+# Next I define "y_predicted", which is dot product between (w and transpose "sample_x") plus some bias 
+
+# Then I calculate first derivatives, which is random sample of X transpose, dot product of difference between true sample and predicted
+* And I take mean of it multiply by minus two, it will be variable "w_grad"
+* Next my second derivatives for bias, it is the same, but in this case I take mean of y sample and predicted y, without dot product
+
+# Now I can calculate weights, which is my "w" variable minus (learning rate) into (w_grad variable), which I calculate above
+* And I do this same with bias, now I have defined bias and weights
+* Then I calculate cost, which is squared difference between sample of y and predicted y
+
+# Now I specify that cost and epoch will be recorded every 100th iteration, they will append in my lists
+* I return from my function weights, bias cost, cost_list, epoch_list
+
+# I can create object of my function "stochastic_gradient_descent", and put inside X_scaled, y_scaled and reshaped to "y_scaled.shape[0]", I pass (10000) epochs
+* And I get weight, bias and cost of my "stochastic_gradient_descent", they are the same as form "batch_gradient_descent"
+* But for "stochastic_gradient_descent" I need to set more epochs, because every epoch it pick only one sample
+
+# Then I plot of graph previous saved in my lists (cost and epochs), we can see that it's not that smooth as on previous graph
+* But later after 4000 epoch it is more stable
+
+# I also check some predictions and they look pretty realistic, when I put (this same number of square feets but with one more bedroom) the price is higher
+
+# Conclusions are that (Batch Gradient Descent) have good performance on small datasets, he use all training samples in one forward pass and then adjust weights
+* In comparison (Stochastic Gradient Descent) use only one sample in forward pass and after adjust weights
+* It is good when you have big dataset, because it saves a lot of computation, When you have a lot of computation power you can use also (Stochastic Gradient Descent)
