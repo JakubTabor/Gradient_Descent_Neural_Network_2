@@ -73,3 +73,51 @@
 # Conclusions are that (Batch Gradient Descent) have good performance on small datasets, he use all training samples in one forward pass and then adjust weights
 * In comparison (Stochastic Gradient Descent) use only one sample in forward pass and after adjust weights
 * It is good when you have big dataset, because it saves a lot of computation, When you have a lot of computation power you can use also (Stochastic Gradient Descent)
+
+
+**MINI BATCH GRADIENT DESCENT**
+
+# I import and prepare my dataset as previous and scale all columns
+
+# Now I can build "Mini Batch Gradient Descent", first i put some features, (X and y_true, number of epochs, batch size and learning rate)
+* Then I define "number_of_features", which are (area and bedroom), it will be "X.shape[1]"
+* Then I initialize weights with "ones" and pass shape which are my previous defined features
+* And I also initialize bias with "zero", my columns have equal size, so I define "total_samples" as "X.shape[0]"
+
+# Now I define batches for my "Gradien Descent", so I specify if "total samples" are less than "variable batch_size" which is (5)
+* Then if this condition is true "batch_size will be equal total samples", this is a simple python trick, thats the way how it gonna pick batches
+* And I create two lists to record epochs and cost
+
+# Then I create for loop in range of my epochs and inside I define variable "random indices"
+* "random.permutation" from numpy, it gonna take "all samples" and pick "random sample"
+* And I gonna take random samples from "X and y_true", I save it as "X_tmp and y_tmp"
+
+# Then I make another for loop (from 0 to total_samples variable) I also put (batch_size variable which is 5)
+* I create two new variables (Xj and yj) I define them as (batches of random samples from X and y)
+
+# Next I define (y_pred) which is dot product between (weights variable and Xj transpose variable) plus bias
+* Now I gonna define (w_grad) by taking dot product with (Xj transpose) of (difference between yj variable and y_pred), I take mean multiply by -2 of it 
+* Next I define (b_grad) which is sum (of difference between yj variable and y_pred) and -2 mean of it
+* Now my derivatives are defined, I gonna use them to calculate (weights and bias)
+* They are my (weights and bias variables) minus previou defined (learning_rate which is 0.01) into (w_grad and b_grad variables) defined above
+
+# Now my (weights) are adjusted, I can define (cost) which is (mean squared error)
+* So first I use (np.square) to get squared error between (yj - y_pred) and then i take (mean of it) using (np.mean)
+
+# Next I create condition to fill my (cost_list and epoch_list), they will be filling every tenth iteration
+* I return from my function (weights, bias, cost and both lists)
+
+# Then I call my function and supply it with (X_scaled, y_scaled reshaped into 1D array)
+* I also set number of (epochs at 120 and number of batches at 5)
+* I get (both weights, bias and cost) my (mini_batch_gradient_descent) function is working well
+
+# Next I plot on graph (Epochs and Cost) of my function calling both lists, previous returned from my function
+* The line look smoother than (Stochastic gradient Descent line) but its not that smooth that in (Batch Gradient Descent)
+* Its not perfect smooth line because my Gradient Descent (use batch of randomly picked samples)
+
+# Then I define (predict function) exactly this same as in previous functions
+* I supply (predict function) into some values and both variables (weights and bias), it looks that all works well
+
+# Mini Batch Gradient Descent use batch of randomly picked samples for a forward pass and then adjust weights
+# In comparison to (Batch Gradient Descent) which use "all" training samples and (Stochastic Gradient Descent) which use "one" random sample for forward pass
+# Its also good for big datasets, as well as "SGD", because it use batch of samples to train the model
